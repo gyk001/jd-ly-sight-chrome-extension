@@ -1,0 +1,18 @@
+{
+  "name": "JD ly Sight",
+  "description": "京东猎鹰监控系统界面增强",
+  "version": "0.2.3",
+  "permissions": [
+    "activeTab"
+  ],
+  "icons":{"16":"icon-16.png","32":"icon-32.png","128":"icon.png"},
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "京东猎鹰监控系统界面增强"
+  },
+  "web_accessible_resources": ["icon-16.png"],
+  "manifest_version": 2
+}
